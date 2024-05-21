@@ -1,0 +1,41 @@
+.title{
+    margin-bottom: 40px;
+}
+
+@media(min-width: 992px){
+    .title{
+        margin-bottom: 24px;
+    }
+}
+
+.work-list li:nth-child(n+2){
+    margin-top: 48px;
+}
+
+@media(min-width: 992px){
+    .work-list li{
+        &:nth-child(2){
+            margin-top: 0px;
+        }
+        &:nth-child(n+3){
+            margin-top: 80px;
+        }
+    }
+}
+
+
+.card-image{
+    border-radius: 8px;
+}
+
+.card-title{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+}
+@media(min-width: 992px){
+    .card-title{
+        font-size: 28px;
+        line-height: 33.6px;
+    }
+}

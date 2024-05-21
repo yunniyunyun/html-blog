@@ -85,12 +85,41 @@ a:hover {
   margin-bottom: 0;
 }
 
+.h6 {
+  font-size: 16px;
+  line-height: 24px;
+}
+
 .mt-24 {
   margin-top: 24px;
 }
 
 .mb-24 {
   margin-bottom: 24px;
+}
+
+.mb-24-16 {
+  margin-bottom: 16px;
+}
+
+@media (min-width: 992px) {
+  .mb-24-16 {
+    margin-bottom: 24px;
+  }
+}
+.p-120-80 {
+  padding: 80px 0;
+}
+
+@media (min-width: 992px) {
+  .p-120-80 {
+    padding: 120px 0;
+  }
+}
+.fz-16 {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
 }
 
 .swiper {
@@ -242,5 +271,42 @@ a:hover {
     width: 300px;
     font-size: 20px;
     line-height: 30px;
+  }
+}
+.title {
+  margin-bottom: 40px;
+}
+
+@media (min-width: 992px) {
+  .title {
+    margin-bottom: 24px;
+  }
+}
+.work-list li:nth-child(n+2) {
+  margin-top: 48px;
+}
+
+@media (min-width: 992px) {
+  .work-list li:nth-child(2) {
+    margin-top: 0px;
+  }
+  .work-list li:nth-child(n+3) {
+    margin-top: 80px;
+  }
+}
+.card-image {
+  border-radius: 8px;
+}
+
+.card-title {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+@media (min-width: 992px) {
+  .card-title {
+    font-size: 28px;
+    line-height: 33.6px;
   }
 }/*# sourceMappingURL=all.css.map */
