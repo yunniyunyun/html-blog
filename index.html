@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.bootcdn.net/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href="./scss/all.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid container">
+            <a class="navbar-brand" href="#"><img src="./images/logo.svg" alt="logo"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                <i class="fa fa-close hidden" style="font-size:24px" id="navbar-close"></i>
+            </button>
+            <div class="collapse navbar-collapse navbar-collapse-center" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link active" aria-current="page" href="#">首頁</a>
+                    <a class="nav-link" href="#">作品集</a>
+                    <a class="nav-link" href="#">服務項目</a>
+                    <a class="nav-link" href="#">部落格</a>
+                    <a class="nav-link" href="#">聯絡我</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+
+    </div>
+    <div class="footer">
+        <div class="container d-lg-flex justify-content-between align-items-lg-center">
+            <div class="d-flex flex-column align-items-center align-items-lg-start">
+                <div class="logo"><img src="./images/logo.svg" alt="logo"></div>
+                <p class="mt-24 mb-24 contact-us">若有數位產品設計和開發相關問題
+                    歡迎填寫表單，或直接與我聯絡！</p>
+                <div class="mail">
+                    service@hexschool.com
+                </div>
+            </div>
+            <ul class="icon-list">
+                <li>
+                    <a href="#" class="d-flex align-items-center">
+                        <i class="fa-regular fa-rectangle-list icon"></i>
+                        <div class="h5">填寫表單</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="d-flex align-items-center">
+                        <i class="fa-brands fa-instagram icon"></i>
+                        <div class="h5">hexschool_demo</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="d-flex align-items-center">
+                        <i class="fa-brands fa-facebook icon"></i>
+                        <div class="h5">hexschoolTW</div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script>
+        console.log('aa');
+        let navbar = document.querySelector('.navbar-toggler')
+        let navbar_toggler_icon = document.querySelector('.navbar-toggler-icon')
+        navbar.addEventListener("click", function () {
+            console.log(navbar_toggler_icon)
+            $('.navbar-toggler-icon').toggleClass('hidden');
+            $('#navbar-close').toggleClass('hidden');
+        });
+    </script>
+</body>
+
+</html>
