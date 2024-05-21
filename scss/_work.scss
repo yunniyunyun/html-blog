@@ -50,12 +50,61 @@
 }
 
 .title {
+    position: relative;
     margin-bottom: 40px;
+    p {
+        font-size: 20px;
+        line-height: 30px;
+        &:first-of-type{
+            max-width: 300px;
+            margin-bottom: 8px;
+        }
+        &:nth-of-type(2){
+            max-width: 260px;
+        }
+    }
 }
 
 @media(min-width: 992px) {
     .title {
+        max-width: 670px;
         margin-bottom: 24px;
+        padding: 59px 71px;
+        p{
+            font-size: 24px;
+            line-height: 28.8px;
+            &:first-of-type{
+                max-width: 100%;
+                margin-bottom: 16px;
+            }
+            &:nth-of-type(2){
+                max-width: 100%;
+            }
+        }
+    }
+}
+.quote-left, .quote-right{
+    width: 64px;
+    height: 64px;
+}
+
+.quote-right{
+    display: none;
+}
+@media(min-width: 992px){
+    .quote-left, .quote-right{
+        position: absolute;
+        width: 72px;
+        height: 72px;
+    }
+    .quote-left{
+        top: 0;
+        left: 0;
+    }
+    .quote-right{
+        display: block;
+        bottom: 0;
+        right: 0;
     }
 }
 
