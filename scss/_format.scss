@@ -16,6 +16,15 @@
     margin-bottom: 24px;
 }
 
+.mb-12-8{
+    margin-bottom: 8px;
+}
+@media(min-width: 992px){
+    .mb-12-8{
+        margin-bottom: 12px;
+    }
+}
+
 .mb-24-16{
     margin-bottom: 16px;
 }
@@ -41,6 +50,15 @@
 @media(min-width: 992px){
     .p-120-80{
         padding: 120px 0;
+    }
+}
+
+.p-80-40{
+    padding: 40px 0;
+}
+@media(min-width: 992px){
+    .p-80-40{
+        padding: 80px 0;
     }
 }
 
