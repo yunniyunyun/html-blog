@@ -109,6 +109,15 @@ a:hover {
     margin-bottom: 24px;
   }
 }
+.mb-72-48 {
+  margin-bottom: 48px;
+}
+
+@media (min-width: 992px) {
+  .mb-24-16 {
+    margin-bottom: 72px;
+  }
+}
 .p-120-80 {
   padding: 80px 0;
 }
@@ -311,4 +320,22 @@ a:hover {
     font-size: 28px;
     line-height: 33.6px;
   }
+}
+.page li:nth-child(n+1) {
+  margin-right: 16px;
+}
+.page li:last-child {
+  margin-right: 0;
+}
+.page li a {
+  padding: 2px 13px;
+  font-size: 24px;
+  line-height: 36px;
+  color: #3B3B3B;
+  border-radius: 4px;
+}
+
+.page .here a {
+  background: #1E1E1E;
+  color: white;
 }/*# sourceMappingURL=all.css.map */

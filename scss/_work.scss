@@ -39,3 +39,27 @@
         line-height: 33.6px;
     }
 }
+
+
+// page
+.page li{
+    &:nth-child(n+1){
+        margin-right: 16px;
+    }
+    &:last-child{
+        margin-right: 0;
+    }
+    a {
+        padding: 2px 13px;
+        font-size: 24px;
+        line-height: 36px;
+        color: #3B3B3B;
+        border-radius: 4px;
+    }
+}
+.page .here{
+    a {
+        background: #1E1E1E;
+        color: white;
+    }
+}
