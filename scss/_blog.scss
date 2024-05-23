@@ -7,6 +7,42 @@
         padding-top: 120px;
     }
 }
+.blog{
+    position: relative;
+}
+.blog::before, .blog::after{
+    content: "";
+    display: block;
+    width: 56px;
+    height: 6px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 50%;
+    transform: translateY(50%);
+}
+.blog::before{
+    background-image: url(../images/blog/title-deco-left-sm.png);
+    left: -16px;
+    transform: translateX(-100%);
+}
+.blog::after{
+    background-image: url(../images/blog/title-deco-right-sm.png);
+    right: -16px;
+    transform: translateX(100%);
+}
+
+@media(min-width: 992px){
+    .blog::before, .blog::after{
+        width: 100px;
+    }
+    .blog::before{
+        background-image: url(../images/blog/title-deco-left-lg.png);
+    }
+    .blog::after{
+        background-image: url(../images/blog/title-deco-right-lg.png);
+    }
+}
 
 .blog-menu{
     padding: 20px 12px;
@@ -41,16 +77,17 @@
         padding: 80px;
         margin-right: 0;
         margin-left: 0;
-    }
-    li:nth-child(n+1){
-        a{
-            margin-right: 0px;
-            margin-bottom: 32px;
+
+        li:nth-child(n+1){
+            a{
+                margin-right: 0px;
+                margin-bottom: 32px;
+            }
         }
-    }
-    li:last-child{
-        a{
-            margin-bottom: 0;
+        li:last-child{
+            a{
+                margin-bottom: 0;
+            }
         }
     }
 }
