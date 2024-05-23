@@ -95,14 +95,40 @@ a:hover {
   line-height: 24px;
 }
 
+.mr-16 {
+  margin-right: 16px;
+}
+
 .mt-24 {
   margin-top: 24px;
+}
+
+.mb-16 {
+  margin-bottom: 16px;
 }
 
 .mb-24 {
   margin-bottom: 24px;
 }
 
+.mb-0-12 {
+  margin-bottom: 12px;
+}
+
+@media (min-width: 992px) {
+  .mb-0-12 {
+    margin-bottom: 0px;
+  }
+}
+.mb-0-40 {
+  margin-bottom: 40px;
+}
+
+@media (min-width: 992px) {
+  .mb-0-40 {
+    margin-bottom: 0px;
+  }
+}
 .mb-12-8 {
   margin-bottom: 8px;
 }
@@ -110,6 +136,15 @@ a:hover {
 @media (min-width: 992px) {
   .mb-12-8 {
     margin-bottom: 12px;
+  }
+}
+.mb-16-12 {
+  margin-bottom: 12px;
+}
+
+@media (min-width: 992px) {
+  .mb-16-12 {
+    margin-bottom: 16px;
   }
 }
 .mb-24-16 {
@@ -163,6 +198,12 @@ a:hover {
   font-weight: 400;
 }
 
+.fz-20 {
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 600;
+}
+
 .fz-32-24 {
   font-size: 24px;
   font-weight: 700;
@@ -180,6 +221,18 @@ a:hover {
 }
 .color-919191 {
   color: #919191;
+}
+
+.color-5B5B5B {
+  color: #5B5B5B;
+}
+
+.color-3B3B3B {
+  color: #3B3B3B;
+}
+
+.border-radius-8 {
+  border-radius: 8px;
 }
 
 .swiper {
@@ -553,6 +606,28 @@ a:hover {
   }
   .blog::after {
     background-image: url(../images/blog/title-deco-right-lg.png);
+  }
+}
+.blog-list {
+  margin: 0 auto;
+}
+
+.blog-img {
+  background-size: contain;
+  height: 220px;
+  width: 100%;
+}
+
+.blog-text {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+}
+
+@media (min-width: 992px) {
+  .blog-text {
+    display: block;
   }
 }
 .blog-menu {

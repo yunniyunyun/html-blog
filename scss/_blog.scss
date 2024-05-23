@@ -44,6 +44,30 @@
     }
 }
 
+// list
+.blog-list{
+    margin: 0 auto;
+}
+
+.blog-img{
+    background-size: contain;
+    height: 220px;
+    width: 100%;
+}
+
+.blog-text{
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+}
+@media(min-width: 992px){
+    .blog-text{
+        display: block;
+    }
+}
+// menu
+
 .blog-menu{
     padding: 20px 12px;
     white-space:nowrap;
