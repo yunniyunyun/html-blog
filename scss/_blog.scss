@@ -47,6 +47,9 @@
 // list
 .blog-list{
     margin: 0 auto;
+    li:hover {
+        box-shadow: 0px 0px 4px rgb(57, 57, 57, 0.2);
+    }
     li:nth-child(n+1) {
         margin-bottom: 64px;
     }
@@ -76,6 +79,11 @@
     overflow: hidden;
 }
 @media(min-width: 992px){
+    .blog-text{
+        -webkit-line-clamp: 4;
+    }
+}
+@media(min-width: 1200px){
     .blog-text{
         display: block;
     }
