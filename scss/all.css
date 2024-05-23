@@ -611,7 +611,21 @@ a:hover {
 .blog-list {
   margin: 0 auto;
 }
+.blog-list li:nth-child(n+1) {
+  margin-bottom: 64px;
+}
+.blog-list li:last-child {
+  margin-bottom: 0px;
+}
 
+@media (min-width: 992px) {
+  .blog-list li:nth-child(n+1) {
+    margin-bottom: 40px;
+  }
+  .blog-list li:last-child {
+    margin-bottom: 0px;
+  }
+}
 .blog-img {
   background-size: contain;
   height: 220px;
