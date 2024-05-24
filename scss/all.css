@@ -622,10 +622,6 @@ a:hover {
     margin-top: 80px;
   }
 }
-.card-image {
-  border-radius: 8px;
-}
-
 .page li:nth-child(n+1) {
   margin-right: 16px;
 }
