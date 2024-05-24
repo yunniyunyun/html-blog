@@ -116,6 +116,10 @@ a:hover {
   margin-top: 24px;
 }
 
+.mb-8 {
+  margin-bottom: 8px;
+}
+
 .mb-16 {
   margin-bottom: 16px;
 }
@@ -182,6 +186,24 @@ a:hover {
     margin-bottom: 24px;
   }
 }
+.mb-40-16 {
+  margin-bottom: 16px;
+}
+
+@media (min-width: 992px) {
+  .mb-40-16 {
+    margin-bottom: 40px;
+  }
+}
+.mb-40-32 {
+  margin-bottom: 32px;
+}
+
+@media (min-width: 992px) {
+  .mb-40-32 {
+    margin-bottom: 40px;
+  }
+}
 .mb-72-48 {
   margin-bottom: 48px;
 }
@@ -242,6 +264,18 @@ a:hover {
 @media (min-width: 992px) {
   .fw-lg-700 {
     font-weight: 700;
+  }
+}
+.fz-24-20 {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+@media (min-width: 992px) {
+  .fz-24-20 {
+    font-size: 24px;
+    line-height: 28.8px;
   }
 }
 .fz-32-24 {
@@ -756,6 +790,39 @@ a:hover {
     width: 100%;
   }
 }
+.post-title {
+  margin-bottom: 24px;
+}
+.post-title h1 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28.8px;
+  text-align: center;
+}
+.post-title h2 {
+  font-size: 16px;
+  line-height: 19.2px;
+  text-align: center;
+}
+
+@media (min-width: 992px) {
+  .post-title {
+    margin-bottom: 64px;
+  }
+  .post-title h1 {
+    font-size: 32px;
+    line-height: 38.4px;
+  }
+  .post-title h2 {
+    font-size: 24px;
+    line-height: 28.8px;
+  }
+}
+.post-content p {
+  font-size: 20px;
+  line-height: 30px;
+}
+
 .related-post {
   text-align: center;
 }

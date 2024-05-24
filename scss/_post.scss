@@ -1,11 +1,53 @@
 .post {
     width: 90%;
 }
+
 @media(min-width: 992px) {
     .post {
         width: 100%;
     }
 }
+
+// 內文
+.post-title {
+    margin-bottom: 24px;
+
+    h1 {
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 28.8px;
+        text-align: center;
+    }
+
+    h2 {
+        font-size: 16px;
+        line-height: 19.2px;
+        text-align: center;
+    }
+}
+
+@media(min-width: 992px) {
+    .post-title {
+        margin-bottom: 64px;
+
+        h1 {
+            font-size: 32px;
+            line-height: 38.4px;
+        }
+
+        h2 {
+            font-size: 24px;
+            line-height: 28.8px;
+
+        }
+    }
+}
+
+.post-content p {
+    font-size: 20px;
+    line-height: 30px;
+}
+
 
 .related-post {
     text-align: center;
