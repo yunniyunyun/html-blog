@@ -851,7 +851,6 @@ a:hover {
 .service-item {
   background-image: url(../images/service/service-item-bg.png);
   background-repeat: no-repeat;
-  background-attachment: fixed;
   background-position: center;
   background-size: cover;
   padding: 80px 0;
@@ -868,4 +867,8 @@ a:hover {
     font-size: 28px;
     line-height: 42px;
   }
+}
+.qa {
+  padding: 24px;
+  border: 1px solid #E9E9E9;
 }/*# sourceMappingURL=all.css.map */
