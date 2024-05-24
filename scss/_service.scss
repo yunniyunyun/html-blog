@@ -1,0 +1,22 @@
+.service-item{
+    background-image: url(../images/service/service-item-bg.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    padding: 80px 0;
+    p{
+        font-size: 24px;
+        line-height: 36px;
+        font-weight: 700;
+        color: #FFFFFF;
+    }
+}
+@media(min-width: 992px){
+    .service-item{
+        p{
+            font-size: 28px;
+            line-height: 42px;
+        }
+    }
+}
