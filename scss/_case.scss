@@ -1,0 +1,47 @@
+.case-body{
+    padding: 0 16px;
+}
+
+.card-title {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+@media(min-width: 992px) {
+    .card-title {
+        font-size: 28px;
+        line-height: 33.6px;
+    }
+}
+
+.case-list li{
+    &:nth-child(n+1){
+        margin-bottom: 48px;
+    }
+    &:last-child{
+        margin-bottom: 0;
+    }
+}
+@media(min-width: 992px) {
+    .case-list li{
+        &:nth-child(n+1){
+            margin-bottom: 80px;
+        }
+        &:last-child, &:nth-last-child(2){
+            margin-bottom: 0;
+        }
+    }
+}
+
+
+.tag{
+    background: #F1F1F1;
+    padding: 4px 12px;
+    &:nth-child(n+1){
+        margin-right: 16px;
+    }
+    &:last-child{
+        margin-right: 0;
+    }
+}
