@@ -194,6 +194,16 @@
     font-weight: 600;
 }
 
+.fz-32 {
+    font-size: 32px;
+}
+
+.fz-20-lh-30 {
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 400;
+}
+
 @media(min-width: 992px) {
     .fw-lg-700 {
         font-weight: 700;

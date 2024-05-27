@@ -261,6 +261,16 @@ a:hover {
   font-weight: 600;
 }
 
+.fz-32 {
+  font-size: 32px;
+}
+
+.fz-20-lh-30 {
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 400;
+}
+
 @media (min-width: 992px) {
   .fw-lg-700 {
     font-weight: 700;
@@ -854,6 +864,42 @@ a:hover {
   .service-item p {
     font-size: 28px;
     line-height: 42px;
+  }
+}
+.process {
+  color: #FFFFFF;
+  background-image: url("../images/service/process-bg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.process-list li:nth-child(2n+1) {
+  border: 1px solid #919191;
+  border-radius: 4px;
+  padding: 24px;
+}
+.process-list li:nth-child(n+1) {
+  margin-bottom: 16px;
+}
+.process-list li:last-child {
+  margin-bottom: 0;
+}
+
+.process-step {
+  font-family: Tourney;
+  font-size: 72px;
+  font-weight: 400;
+  line-height: 86.4px;
+  margin-right: 0;
+}
+
+@media (min-width: 992px) {
+  .process-list li:nth-child(2n+1) {
+    padding: 24px 32px;
+  }
+  .process-step {
+    margin-right: 32px;
   }
 }
 .price {

@@ -1,59 +1,107 @@
-.service-item{
+.service-item {
     background-image: url(../images/service/service-item-bg.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     padding: 80px 0;
-    p{
+
+    p {
         font-size: 24px;
         line-height: 36px;
         font-weight: 700;
         color: #FFFFFF;
     }
 }
-@media(min-width: 992px){
-    .service-item{
-        p{
+
+@media(min-width: 992px) {
+    .service-item {
+        p {
             font-size: 28px;
             line-height: 42px;
         }
     }
 }
+
+// 服務流程
+.process {
+    color: #FFFFFF;
+    background-image: url('../images/service/process-bg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.process-list li{
+    &:nth-child(2n+1){
+        border: 1px solid #919191;
+        border-radius: 4px;
+        padding: 24px;
+    }
+    &:nth-child(n+1){
+        margin-bottom: 16px;
+    }
+    &:last-child{
+        margin-bottom: 0;
+    }
+}
+.process-step{
+    font-family: Tourney;
+    font-size: 72px;
+    font-weight: 400;
+    line-height: 86.4px;
+    margin-right: 0;
+}
+@media(min-width: 992px) {
+    .process-list li{
+        &:nth-child(2n+1){
+            padding: 24px 32px;
+        }
+    }
+    .process-step{
+        margin-right: 32px;
+    }
+}
+
 // 價格表
-.price{
+.price {
     padding: 32px;
     background: #FAFAFA;
     box-shadow: 0px 4px 8px 0px #00000014;
 }
+
 // FIXME: 橫線，1200~1400
-.price-line{
+.price-line {
     width: 28px;
     border: 1px solid #C1C1C1;
     margin: 0 16px;
 }
-.price-price{
+
+.price-price {
     font-size: 20px;
     font-weight: 700;
     line-height: 30px;
     margin-right: 4px;
 }
-.price-item{
+
+.price-item {
     font-size: 20px;
     font-weight: 700;
     line-height: 30px;
     margin-left: 5px;
     white-space: nowrap;
 }
-@media(min-width: 992px){
-    .price-line{
+
+@media(min-width: 992px) {
+    .price-line {
         max-width: 41px;
     }
-    .price-price{
+
+    .price-price {
         font-size: 32px;
         line-height: 48px;
         margin-right: 8px;
     }
-    .price-item{
+
+    .price-item {
         font-size: 28px;
         font-weight: 600;
         line-height: 42px;
@@ -62,14 +110,14 @@
 }
 
 // 客戶案例
-.case{
+.case {
     background: #FAFAFA;
 }
 
 
 
 // QA
-.qa{
+.qa {
     padding: 24px;
     border: 1px solid #E9E9E9;
     // height: 100%;
