@@ -108,6 +108,10 @@ a:hover {
     margin: 80px 0;
   }
 }
+.mr-8 {
+  margin-right: 8px;
+}
+
 .mr-16 {
   margin-right: 16px;
 }
@@ -195,6 +199,15 @@ a:hover {
     margin-bottom: 40px;
   }
 }
+.mb-40-24 {
+  margin-bottom: 24px;
+}
+
+@media (min-width: 992px) {
+  .mb-40-24 {
+    margin-bottom: 40px;
+  }
+}
 .mb-40-32 {
   margin-bottom: 32px;
 }
@@ -261,6 +274,10 @@ a:hover {
   font-weight: 600;
 }
 
+.fz-24 {
+  font-size: 24px;
+}
+
 .fz-32 {
   font-size: 32px;
 }
@@ -288,6 +305,19 @@ a:hover {
     line-height: 28.8px;
   }
 }
+.fz-20-16 {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+@media (min-width: 992px) {
+  .fz-20-16 {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+  }
+}
 .fz-32-24 {
   font-size: 24px;
   font-weight: 700;
@@ -301,6 +331,18 @@ a:hover {
     font-weight: 600;
     line-height: 38.4px;
     letter-spacing: 0.12em;
+  }
+}
+.fz-28-20 {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+@media (min-width: 992px) {
+  .fz-28-20 {
+    font-size: 28px;
+    line-height: 33.6px;
   }
 }
 .fz-28-24 {
@@ -994,4 +1036,21 @@ a:hover {
 }
 .tag:last-child {
   margin-right: 0;
+}
+
+.index-service {
+  background-image: url(../images/home/homepage-services-bg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.index-service-btn {
+  padding: 8px 16px;
+}
+
+@media (min-width: 992px) {
+  .index-service-btn {
+    padding: 16px 32px;
+  }
 }/*# sourceMappingURL=all.css.map */

@@ -1,0 +1,14 @@
+.index-service{
+    background-image: url(../images/home/homepage-services-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover
+}
+.index-service-btn{
+    padding: 8px 16px;
+}
+@media(min-width: 992px) {
+    .index-service-btn{
+        padding: 16px 32px;
+    }
+}
